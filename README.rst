@@ -33,6 +33,9 @@ Dependencies
 Use ``pip`` to install required dependencies ::
 
     pip install threadpoolctl joblib numpy scikit-learn
+ 
+Use https://github.com/tsandrii/timeseries-with-thresholding to install Timeseries Prediction Package w/ Thresholding
+
 
 SafePredict
 ~~~~~~~~~~~~
