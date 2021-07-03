@@ -1,0 +1,4 @@
+This is a combined-based method that uses 24 forecasting methods (mostly statistical models such as ETS, ARIMA, Temporal HIErarchical Forecasting(THIEF), 
+MAPA and several ML models such as bagging and neural networks). The key criterion for choosing a forecasting method was that it had been analyzed empirically 
+using forecasting competition datasets or benchmarks.The point forecasts submitted finished fourth in the M4-competitions based on the overall weighted average 
+error measure and second based on the symmetric mean absolute percent error (sMAPE).
