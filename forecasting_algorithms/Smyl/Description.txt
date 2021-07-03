@@ -1,0 +1,7 @@
+Name of forecasting method: Exponential Smoothing - Recurrent Neural Network (ES-RNN) Hybrid Models
+
+Hybrid models, mixing hand-coded parts, like some Exponential Smoothing (ES) formulas, with a black-box Recurrent Neural Network (RNN) forecasting engine. 
+The models do not constitute an ensemble of Exponential Smoothing (ES) and Neural Networks (NN) – instead, they are truly hybrid algorithms in which all parameters,
+like the initial ES seasonality and smoothing coefficients, are fitted concurrently with the NN weights by the same Gradient Descent method.
+Additionally, these are hierarchical models, in a sense that they use both global, applicable to all series, parameters (the NN weights) and per-time- series 
+parameters (like seasonality and smoothing coefficients).
