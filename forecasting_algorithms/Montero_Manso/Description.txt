@@ -1,0 +1,11 @@
+The method combines seven statistical methods and a ML one, with the weights that are utilized forthe averaging being calculated by a ML algorithm which is 
+trained to minimize the forecasting errors through holdout tests for each individual series. The proposed approach involves two phases. 
+
+First, it utilizes a set of time series to train a meta-model which assigns weights to different possible forecasting algorithms with the goal of minimizing 
+the average forecasting loss obtained from a weighted forecast combination. The inputs to the meta-model are features that are extracted from each series. 
+
+Then, in the second phase, the method performs forecasts on unseen series using a weighted forecast combination, where the weights are received from the 
+previously trained meta-model. 
+
+Montero-Manso etal.’s method has shown second-best results for prediction intervals and point forecasts in the M4-competition for yearly, quarterly, monthly,
+weekly, daily and hourly data. The method has the most accurate predictions for time series data from demographicand industrial domains.
